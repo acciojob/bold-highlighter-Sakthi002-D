@@ -12,7 +12,7 @@ const boldWords = document.querySelector("strong");
 
 function return_normal() {
     //Write your code here
-	const boldWords = document.querySelectorAll("strong");
+	const boldWords = document.querySelector"strong");
 
 	boldWords.forEach((word)  => {
 		word.style.color = "egb(0, 0, 0)";
