@@ -1,6 +1,6 @@
 function highlight() {
     //Write your code here
-const boldWords = document.querySelector("strong");
+const boldWords = document.querySelectorAll("strong");
 
 
 	boldWords.forEach((word)  => {
@@ -12,10 +12,10 @@ const boldWords = document.querySelector("strong");
 
 function return_normal() {
     //Write your code here
-	const boldWords = document.querySelector"strong");
+	const boldWords = document.querySelectorAll("strong");
 
 	boldWords.forEach((word)  => {
-		word.style.color = "egb(0, 0, 0)";
+		word.style.color = "rgb(0, 0, 0)";
 	})
     
 }
